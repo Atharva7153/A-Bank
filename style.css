@@ -1,0 +1,29 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+a {
+    text-decoration: none;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #428a55;
+}
+.logo {
+    height: 60vh;
+}
+@media (max-width: 1200px){
+    .logo{
+        height: 21%;
+    }
+}
+
