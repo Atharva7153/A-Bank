@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer - A bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <style>
+        body {
+            min-height: 100vh;
+            background: linear-gradient(-45deg, #1a1a2e, #16213e, #1b2430, #0f172a);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.05) !important;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        .shake-text {
+            animation: shake 0.5s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        .lunch-time {
+            color: #4ecca3;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row min-vh-100 align-items-center justify-content-center">
+            <div class="col-md-6">
+                <div class="card glass text-center p-5">
+                    <div class="card-body">
+                        <img src="Logo Dark.png" alt="" height="40" class="mb-4">
+                        <h1 class="text-white mb-4">
+                            You don't have permission to 
+                            <span class="shake-text text-danger">transfer money</span>
+                        </h1>
+                        <h2 class="text-white-50 mb-4">Bank me ake FORM bharo....</h2>
+                        <h3 class="text-white-50 mb-2">Lunch Time ke bad ana</h3>
+                        <h3 class="lunch-time mb-4">Lunch time: 2PM to 5PM</h3>
+                        
+                        <a href="homepage.html" class="btn glass text-white mt-3">
+                            <i class="bi bi-house me-2"></i>Back to Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

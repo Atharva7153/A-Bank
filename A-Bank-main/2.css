@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.border {
+    border: 0.15rem solid red;
+}
+.nav {
+    display: flex;
+    height: 15vh;
+    background-image: url(Rectangle\ 1.png);
+}
+.logo {
+    height: 15vh;
+    width: 20vw;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-left: 4vw;
+    margin: -1.5vh;
+    width: 60vw;
+    font-size: 3rem;
+}
+.container {
+    height: 85vh;
+    display: flex;
+}
+.left, .right {
+    background-color: rgba(217, 217, 217, 1);
+    width: 20vw;
+}
+.center {
+    width: 60vw;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center h1 {
+    color: black;
+}
+.main {
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 2rem;
+    height: 65vh;
+    width: 55vw;
+}
+.info {
+    padding-top: 2vh;
+    padding-left: 2vw;
+    background-color: white;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-radius: 2rem;
+    height: 30vh;
+    width: 90%;
+}
+.buttons1, .buttons2 {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    height: 20vh;
+    width: 90%;
+}
+.buttons1 button, .buttons2 button {
+    width: 16vw;
+    border-radius: 1.5rem;
+    background-image: url(Rectangle\ 1.png);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding: 1vh 2vw;
+}
+.credit marquee {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+}
+.buttons1 button a, .buttons2 button a {
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    .left {
+        position: relative;
+        left: -100%;
+        transition: all 0.3s;
+    }
+    .right {
+        position: relative;
+        right: -100%;
+        transition: all 0.3s;
+    }
+    .logo {
+        display: none;
+    }
+    .title h1 {
+        font-size: 2rem;
+    }
+    .title {
+        padding-left: 5vw;
+        margin: -1vh;
+    }
+}

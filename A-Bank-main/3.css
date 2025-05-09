@@ -1,0 +1,81 @@
+.close{
+    display: block;
+}
+.heading{
+    gap: 2%;
+}
+.nav{
+    display: flex;
+    height: 4vh;
+}
+.left{
+    height: 100%;
+    font-size: 101%;
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    transition: all .3s;
+    z-index: 2000;
+}
+.right{
+    height: 100%;
+    font-size: 101%;
+    width: 100%;
+    position: absolute;
+    right: -100%;
+    transition: all .3s;
+    z-index: 1000;
+}
+.logo{
+    display: none;
+}
+.title h1 {
+    font-size: 90%;
+}
+.title{
+    padding-left: 83px;
+    margin: -10px;
+}
+.center{
+    position: fixed;
+    left: -221px;
+    height: 100%;
+    width: 115%;
+}
+.header{
+    padding-right: 13%;
+}
+.main{
+    position: initial;
+    height: 100%;
+    width: 55%;
+}
+.info{
+    height: 30%;
+    width: 376px;
+    font-size: 100%;
+}
+.buttons1{
+    height: 7%;
+    width: 69%;
+}
+.buttons1 button{
+    height: 40%;
+    width: 40%;
+    font-size: 139%;
+}
+.buttons2{
+    margin-bottom: 69px;
+    height: 7%;
+    width: 69%;
+}
+
+.buttons2 button{
+    height: 40%;
+    width: 40%;
+    font-size: 139%;
+}
+.ab {
+    
+    display: block;
+}
